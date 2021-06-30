@@ -130,7 +130,7 @@ function RegistrationForm() {
                 <DatePicker
                   label={flield.label}
                   name={flield.name}
-                  value={values.arrivalDate}
+                  value={values.entryDate}
                   onChange={handleChange}
                 />
               ) : (
